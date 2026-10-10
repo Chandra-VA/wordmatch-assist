@@ -1,0 +1,56 @@
+.gradle/
+.tools/
+.signing/
+.idea/
+local.properties
+build/
+**/build/
+captures/
+*.iml
+
+# Local analysis, recordings, and generated deliverables
+.analysis/
+outputs/
+*.apk
+*.aab
+*.idsig
+*.log
+
+# Signing material and credentials, wherever they are stored
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+signing.properties
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Local application data
+learned_vocabulary.tsv
+manual_vocabulary.tsv
+ai_vocabulary.tsv
+user_vocabulary.csv
+
+# Machine, assistant, cloud credentials and recordings
+.codex/
+.agents/
+.aws/
+.ssh/
+.vscode/
+*.mp4
+*.mov
+*.webm
+*.zip
+*.hprof
+*.db
+*.sqlite*
+google-services.json
+service-account*.json
+
+# OS metadata
+.DS_Store
+Thumbs.db

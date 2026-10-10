@@ -1,0 +1,8 @@
+<resources>
+    <color name="green_primary">#58CC02</color>
+    <color name="green_dark">#46A302</color>
+    <color name="ink">#243041</color>
+    <color name="ink_muted">#657286</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F3F7FA</color>
+</resources>

@@ -1,0 +1,6 @@
+# Copy to .signing/signing.properties locally; never commit the filled file.
+# storeFile is relative to the signing.properties file's directory.
+storeFile=release-keystore.p12
+storePassword=REPLACE_LOCALLY
+keyAlias=wordmatch-release
+keyPassword=REPLACE_LOCALLY
